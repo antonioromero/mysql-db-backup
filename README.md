@@ -7,7 +7,7 @@ The script create a (date-formatted named) directory with one tar file for each 
 
 It takes 4 arguments: Database user, user password, directory where the backup will be created (optional), date format to name the backup directory, by default it takes "%Y-%m-%d_%H:%M:%S" format (optional).
 
-More info about date format: `man date`.
+More info about date format are at `$ man date`.
 
 Example: 
 

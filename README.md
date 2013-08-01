@@ -5,7 +5,9 @@ Back up your MySQL databases
 
 The script create a (date-formatted named) directory with one tar file for each database. 
 
-It takes 4 arguments: Database user, user password, directory where the backup will be created (optional), date format to name the backup directory (optional).
+It takes 4 arguments: Database user, user password, directory where the backup will be created (optional), date format to name the backup directory, by default it takes "%Y-%m-%d_%H:%M:%S" format (optional).
+
+More info about date format: `man date`.
 
 Example: 
 
@@ -18,6 +20,3 @@ To run the script you have to set it execution permissions, in Linux:
 `
 chmod +x mysql_db_backup.sh
 `
-
-
-> Instructions come soon...

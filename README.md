@@ -18,5 +18,5 @@ $ ./mysql_db_backup.sh database_user password /home/user/database-backups "%y-%m
 To run the script you have to set it execution permissions, in Linux: 
 
 `
-chmod +x mysql_db_backup.sh
+$ chmod +x mysql_db_backup.sh
 `
